@@ -29,6 +29,7 @@ cp Lib/* output
 
 # NuGet packages
 cp packages/OpenTK.2.0.0/lib/net20/OpenTK.dll output
+
 cp packages/OpenTK.2.0.0/content/OpenTK.dll.config output
 cp packages/protobuf-net.2.1.0/lib/net45/protobuf-net.dll output
 

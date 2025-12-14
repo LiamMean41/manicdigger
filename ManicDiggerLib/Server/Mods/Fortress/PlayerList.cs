@@ -12,7 +12,7 @@ namespace ManicDigger.Mods.Fortress
 		{
 			m = manager;
 			m.RegisterOnSpecialKey(OnTabKey);
-			m.RegisterOnDialogClick(OnTabResponse);
+			m.RegisterOnDialogClick2(OnTabResponse);
 			m.RegisterTimer(UpdateTab, 1);
 		}
 		

@@ -44,7 +44,7 @@ namespace ManicDigger.Mods
 			MakeCaves(x, y, z, m.GetChunkSize(), _rnd, this.EnableCaves, gravellength, goldorelength, ironorelength, coalorelength, dirtlength, silverlength);
 		}
 		
-		public bool EnableCaves = false;
+		public bool EnableCaves = true;
 		public int goldorelength = 50;
 		public int ironorelength = 50;
 		public int coalorelength = 50;

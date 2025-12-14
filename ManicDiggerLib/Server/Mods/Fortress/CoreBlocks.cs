@@ -1067,6 +1067,7 @@ namespace ManicDigger.Mods
 			               });
 			#endregion
 
+/*
 			#region Creative inventory
 			m.AddToCreativeInventory("Stone");
 			m.AddToCreativeInventory("Dirt");
@@ -1199,8 +1200,10 @@ namespace ManicDigger.Mods
 			m.AddToStartInventory("SilverCoin", 1);
 			m.AddToStartInventory("Compass", 1);
 			#endregion
+		
+*/
 		}
-
+		#region Seasons
 		int lastseason;
 		void UpdateSeasons()
 		{
@@ -1365,5 +1368,6 @@ namespace ManicDigger.Mods
 				m.AddToCreativeInventory("Water");
 			}
 		}
+		#endregion
 	}
 }
